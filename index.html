@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <!-- <link rel="shortcut icon" href=""> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+<body>
+    <span id="formulasSpan">
+        <t>
+            R formula
+        </t>
+        <br>
+        <input id="rFormula" value="255 * Math.sin(X * Y + Y / 10000)">
+        <br>
+        <t>
+            G formula
+        </t>
+        <br>
+        <input id="gFormula" value="255 * Math.sin(X * Y + Y / 1000)">
+        <br>
+        <t>
+            B formula
+        </t>
+        <br>
+        <input id="bFormula" value="255 * Math.sin(X * Y + Y / 100)">
+        <br>
+        <t>
+            Zoom multiplier
+        </t>
+        <br>
+        <input id="zoom" value="1">
+        <br>
+    </span>
+    <button id="button">
+        <t>add</t>
+    </button>
+    <br>
+    <canvas id="canvas" width="800px" height="800px">
+
+    </canvas>
+    <script src="index.js">
+
+    </script>
+</body>
